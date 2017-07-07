@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Login | Instaclone</title>
-        <meta charset="UTF-8">
-        <meta description="Instaclone login page">
-    </head>
-    <body>
-        <main>
-            <div id="phone-image">
-                <img 
-                    src="images/phoneImage.png"
-                    alt="Phone image"
-                    title="Phone image" 
+<head>
+    <title>Login | Instaclone</title>
+    <meta charset="UTF-8">
+    <meta description="Instaclone login page">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="phone-image">
+            <img 
+                src="images/phoneImage.png"
+                alt="Phone image"
+                title="Phone image" 
+            />
+        </div>
+        <section id="login">
+            <div class="login__box">
+                <img
+                    src="images/logoLogin.png" 
+                    alt="Logo login"
+                    title="Logo login"
                 />
-            </div>
-            <section id="login">
-                <div class="login__box">
-                    <img
-                        src="images/logoLogin.png" 
-                        alt="Logo login"
-                        title="Logo login"
+                <form action="feed.html" method="GET">
+                    <input 
+                        type="text"
+                        name="username"
+                        placeholder="Username"
+                        required
+                        class="login__input"
                     />
-                    <form action="feed.html" method="GET">
+                    <div class="login__form-box">
                         <input 
-                            type="text"
-                            name="username"
-                            placeholder="Username"
+                            type="password"
+                            name="potato"
+                            placeholder="Password"
                             required
                             class="login__input"
                         />
-                        <div class="login__form-box">
-                            <input 
-                                type="password"
-                                name="potato"
-                                placeholder="Password"
-                                required
-                                class="login__input"
-                            />
-                            <a href="#">Forgot?</a>
-                        </div>
-                        <input type="submit" value="Log in">
-                    </form>
-                    <span class="login__form-divider">or</span>
-                    <a id="login__fb-link" href="#">Log in with Facebook</a>
-                </div>
-                <div class="login__box">
-                    <span class="login__text">
-                        Don't have an account?
-                    </span>
-                    <a href="#" class="login__link">Sign up</a>
-                </div>
-                <div class="login__box login__box--transparent">
-                    <span class="login__text">Get the app.</span>
-                    <div class="login__appstores">
-                        <img src="images/ios.png" />
-                        <img src="images/android.png" />
+                        <a href="#">Forgot?</a>
                     </div>
+                    <input type="submit" value="Log in">
+                </form>
+                <span class="login__form-divider">or</span>
+                <a id="login__fb-link" href="#">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    Log in with Facebook
+                </a>
+            </div>
+            <div class="login__box">
+                <span class="login__text">
+                    Don't have an account?
+                </span>
+                <a href="#" class="login__link">Sign up</a>
+            </div>
+            <div class="login__box login__box--transparent">
+                <span class="login__text">Get the app.</span>
+                <div class="login__appstores">
+                    <img src="images/ios.png" />
+                    <img src="images/android.png" />
                 </div>
-            </section>
-        </main>
-        <footer>
-            <nav class="footer__nav">
-                <ul class="footer__list">
-                    <li class="footer__item"><a href="#" class="footer__link">about us</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">support</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">blog</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">press</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">api</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">jobs</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">terms</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">directory</a></li>
-                    <li class="footer__item"><a href="#" class="footer__link">language</a></li>
-                </ul>
-            </nav>
-            <span class="footer__copyright">© 2017 instagram</span>
-        </footer>
-    </body>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">support</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">press</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">api</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">jobs</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">directory</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">language</a></li>
+            </ul>
+        </nav>
+        <span class="footer__copyright">© 2017 instagram</span>
+    </footer>
+</body>
 </html>
