@@ -1,4 +1,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size:12px;
+    font-size:14px;
+    background-color: #FAFAFA;
+}
+
+main,
+footer{
+    max-width: 900px;
 }
