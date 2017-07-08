@@ -19,6 +19,7 @@
     background-color: white;
     border: 1px solid #e6e6e6;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .login__box--transparent{
@@ -38,4 +39,9 @@
 
 .login__appstores img{
     height: 40px;
+    cursor: pointer;
+}
+
+.login__appstores{
+    margin-top: 17px;
 }
