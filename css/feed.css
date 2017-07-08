@@ -42,3 +42,67 @@
 .photo__image{
     max-width: 100%;
 }
+
+.photo__main{
+    padding: 15px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.photo__actions{
+    margin-bottom: 15px;
+}
+
+.photo__actions i:last-child{
+    margin-left: 12px;
+}
+
+.photo__likes{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.photo__comments{
+    margin-bottom: 15px;
+}
+
+.photo__comment{
+    margin-bottom: 7px;
+}
+
+.photo__comment-author{
+    font-weight: 600;
+}
+
+.photo__date{
+    display: block;
+    margin-bottom: 10px;
+   color: #999;
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.photo__add-comment-container{
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.photo__add-comment-container textarea{
+    padding-top:15px;
+    width: 95%;
+    resize: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.photo__add-comment-container textarea:focus{
+    outline: none;
+}
+
+.photo__add-comment-container i{
+    position: absolute;
+    top: 18px;
+    right: 01px;
+}
