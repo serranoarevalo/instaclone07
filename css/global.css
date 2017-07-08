@@ -9,6 +9,10 @@ footer{
     max-width: 900px;
 }
 
+main{
+    margin-top: 60px;
+}
+
 a {
     color:#003569;
 }
