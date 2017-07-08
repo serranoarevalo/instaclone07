@@ -12,3 +12,7 @@ footer{
 a {
     color:#003569;
 }
+
+input:focus{
+    outline: none;
+}
