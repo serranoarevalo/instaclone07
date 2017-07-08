@@ -15,34 +15,28 @@
             height: 100%;
             background-color: blue;
             display: flex;
-            justify-content: space-around;
             align-items: center;
+            justify-content: center;
         }
         .child{
-            width:20%;
-            height: 250px;
-            background-color: red;
-            color:white;
+            width:100px;
+            height: 100px;
+            background-color: yellow;
             
         }
-        #one{
-            align-self: flex-start;
-        }
-        #three{
-            align-self: flex-end;
+        .grandchild{
+            width:50px;
+            height: 50px;
+            background-color: green;
+            position: absolute;
+            top:5px;
         }
     </style>
 </head>
 <body>
     <div class="father">
-        <div class="child" id="one">
-            <div>1</div>
-        </div>
         <div class="child">
-            <div>1</div>
-        </div>
-        <div class="child" id="three">
-            <div>1</div>
+            <div class="grandchild"></div>
         </div>
     </div>
 </body>

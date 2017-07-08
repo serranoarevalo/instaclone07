@@ -69,7 +69,14 @@
 }
 
 .login__form-box{
-    margin-top: 5px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.login__form-box a{
+    position: absolute;
+    top:10px;
+    right:10px;
 }
 
 input[type="submit"]{
