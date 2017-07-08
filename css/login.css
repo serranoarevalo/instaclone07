@@ -45,3 +45,56 @@
 .login__appstores{
     margin-top: 17px;
 }
+
+.login__logo{
+    margin-bottom:10px;
+}
+
+.login__input{
+    padding:7px 0px 7px 10px;
+    box-sizing: border-box;
+    width:100%;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login__input:focus{
+    outline:none;
+}
+
+.login__box--form{
+    padding:40px;
+    box-sizing: border-box;
+}
+
+.login__form-box{
+    margin-top: 5px;
+}
+
+input[type="submit"]{
+    width:100%;
+    padding:6px 0px;
+    display: block;
+    appearance: none;
+    -webkit-appearance: none;
+    border:0;
+    color:white;
+    font-weight: 700;
+    font-size:14px;
+    background-color: #3897f0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login__form-divider{
+    display: block;
+    margin:20px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#999;
+}
+
+#login__fb-link{
+    color:#385185;
+}
