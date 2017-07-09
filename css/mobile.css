@@ -63,5 +63,13 @@
         padding-top: 0;
     }
 
+    .explore{
+        background-color: transparent;
+    }
+
+    .people__user{
+        border:none;
+    }
+
 }
 
