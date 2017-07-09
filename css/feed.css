@@ -7,7 +7,7 @@
 }
 
 .photo{
-    width:600px;
+    max-width:600px;
     background-color: white;
     border:1px solid #e6e6e6;
     box-sizing: border-box;
@@ -31,6 +31,16 @@
     height: 30px;
     border-radius: 50%;
     margin-right: 10px;
+    animation: 1.5s martinaRotates infinite linear;
+}
+
+@keyframes martinaRotates{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn)
+    }
 }
 
 .photo__author{
@@ -105,4 +115,17 @@
     position: absolute;
     top: 18px;
     right: 01px;
+}
+
+.fa-heart-o{
+    animation:.5s pump infinite linear;
+}
+
+@keyframes pump{
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale(1.1,1.1);
+    }
 }
