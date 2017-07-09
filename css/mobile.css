@@ -42,5 +42,26 @@
         margin-bottom: 10px;
     }
 
+    #phone-image{
+        display: none;
+    }
+
+    #login{
+        width:100%;
+    }
+
+    .login{
+        width:95%;
+    }
+
+    .login__box{
+        background-color: transparent;
+        border:none;
+    }
+
+    .login__box--form{
+        padding-top: 0;
+    }
+
 }
 
