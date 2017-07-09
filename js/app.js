@@ -4,13 +4,15 @@ $(document).ready(function(){
         $addComment = $('.photo__add-comment');
 
     $heart.click(function(){
-        var likes = $(this).parent().parent().children('.photo__likes').children('.photo__likes-number'),
-            likeNumber = 30,
-            newValue;
+        var likes = $(this).parent().parent()
+                    .children('.photo__likes')
+                    .children('.photo__likes-number'),
+            likesNumber = parseInt(likes.html()),
+            newValue
         if($(this).hasClass('fa-heart-o')){
-            newValue = likeNumber + 1
+            newValue = likesNumber + 1;
         } else{
-            newValue = likeNumber - 1
+            newValue = likesNumber - 1;
         }
         likes.html(newValue)
         $(this).toggleClass('fa-heart-o fa-heart');
@@ -27,7 +29,7 @@ $(document).ready(function(){
             $(this).val('').blur();
             // Append a <li> to photo__comments.
             commentList.append("<li class='photo__comment'>\
-                <span class='photo__comment-author'>serranoarevalo</span>"
+                <span class='photo__comment-author'>serranoarevalo</span> "
             + newComment +  "</li>");
         }
     })
