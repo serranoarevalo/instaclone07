@@ -117,8 +117,10 @@
     right: 01px;
 }
 
-#heart{
+.fa-heart{
     animation:.5s pump infinite linear;
+    color:red;
+    transition: all .3s linear;
 }
 
 @keyframes pump{

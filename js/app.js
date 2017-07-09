@@ -1,9 +1,9 @@
 $(document).ready(function(){
     
-    var $heart = $('.photo__likes');
+    var $heart = $('.heart');
 
     $heart.click(function(){
-        alert('clicked')
+        $(this).toggleClass('fa-heart-o fa-heart');
     })
 })
 
